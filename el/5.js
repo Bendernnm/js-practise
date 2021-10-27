@@ -7,5 +7,7 @@ fs.readFile(__filename, () => {
   setImmediate(() => {
     console.log('immediate');
   });
+  Promise.resolve().then(() => console.log('promise'));
+  console.log('end');
 });
 

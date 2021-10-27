@@ -1,0 +1,1 @@
+// func.bind({}) == func.customBind()
